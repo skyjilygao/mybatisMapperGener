@@ -28,7 +28,7 @@ public class GeneratorMain {
                 myBatisGenerator = new MyBatisGenerator(config, callback,  
                         warnings);  
                 myBatisGenerator.generate(null);  
-                  
+                  System.out.println("1_1111111");
                 //打印结果  
                 for(String str : warnings){  
                     System.out.println(str);  
